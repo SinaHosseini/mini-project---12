@@ -20,3 +20,8 @@ time.sleep(1)
 one = pyfiglet.figlet_format("1")
 print(one)
 time.sleep(1)
+
+movie = Media("man of steel", "zack snyder", "7.1",
+              "https://youtu.be/EVsFbdjlpAE", "2013", "henry cavill")
+movie.showinfo()
+movie.download()
