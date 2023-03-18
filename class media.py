@@ -25,43 +25,32 @@ time.sleep(1)
 #               "https://youtu.be/EVsFbdjlpAE", "2013", "henry cavill")
 # movie.showinfo()
 # movie.download()
-movie = []
-film = []
-series = []
-documentary = []
-clip = []
+media = []
 
 
 def read_data():
-    f = open("database.txt", "r")
+    f = open("episode12/database.txt", "r")
 
     for line in f:
-        result = line.split(",")
-        if line == 0:
-            my_obj = Film(result[1], result[2], result[3],
-                          result[4], result[5], result[6])
-            film.append(my_obj)
-            movie.append(film)
+        media = line.split("\n")
+        for i in range(len(media)):
+            split = media[i].split(",")
+            if split[0] == "film":
+                media.append(Film(split[0], split[1], split[2], split[3], split[4], split[5], split[6]))
 
-        elif line == 1:
-            my_obj = Series(result[1], result[2], result[3],
-                          result[4], result[5], result[6])
-            series.append(my_obj)
-            movie.append(series)
+            elif split[1] == "series":
+                media.append(Series(split[0], split[1], split[2], split[3], split[4], split[5], split[6]))
 
-        elif line == 2:
-            my_obj = Documentary(result[1], result[2], result[3],
-                          result[4], result[5], result[6])
-            documentary.append(my_obj)
-            movie.append(documentary)
+            elif split[2] == "documentary":
+                media.append(Documentary(split[0], split[1], split[2], split[3], split[4], split[5], split[6]))
 
-        elif line == 3:
-            my_obj = Clip(result[1], result[2], result[3],
-                          result[4], result[5], result[6])
-            clip.append(my_obj)
-            movie.append()
+            elif split[3] == "clip":
+                media.append(Clip(split[0], split[1], split[2], split[3], split[4], split[5], split[6]))
+
+            return media
 
     f.close()
 
-read_data()
-print(movie)
+
+media = read_data()
+print(media)

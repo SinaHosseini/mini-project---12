@@ -1,4 +1,4 @@
-the god father, Francis Ford, 9.2, https://youtu.be/EVsFbdjlpAE , 1972, Al Pacino - Marlon Brando - James Caan - Diane Keaton
-Friends, David Crane and Marta Kauffman, 8.9, https://youtu.be/IEEbUzffzrk , 1994 - 2004, Jennifer Aniston - Lisa Kudrow - David Schwimmer - Courteney Cox - Matthewe Perry - Matt LeBlanc
-the act of killing, Det Danske Filminstitut, 8.2, https://youtu.be/3tILiqotj7Y , 2012 , None
-troy, Wolfgang Petersen, 7.3, https://youtu.be/_z5UKystdZg , 2004, Brad Pitt - Eric Bana - Diane Kruder
+film, The God Father, Francis Ford, 9.2, https://youtu.be/EVsFbdjlpAE , 1972, Al Pacino - Marlon Brando - James Caan - Diane Keaton
+series, Friends, David Crane and Marta Kauffman, 8.9, https://youtu.be/IEEbUzffzrk , 1994 - 2004, Jennifer Aniston - Lisa Kudrow - David Schwimmer - Courteney Cox - Matthewe Perry - Matt LeBlanc
+documentary, The Act Of Killing, Det Danske Filminstitut, 8.2, https://youtu.be/3tILiqotj7Y , 2012 , None
+clip, Troy, Wolfgang Petersen, 7.3, https://youtu.be/_z5UKystdZg , 2004, Brad Pitt - Eric Bana - Diane Kruder

@@ -2,7 +2,8 @@ import pyfiglet as pf
 
 
 class Media:
-    def __init__(self, name, director, imdb, url, duration, casts):
+    def __init__(self,type, name, director, imdb, url, duration, casts):
+        self.type = type
         self.name = name
         self.director = director
         self.IMBD_score = imdb
